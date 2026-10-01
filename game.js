@@ -84,7 +84,7 @@ class Building {
                 }
             }
         }
-        
+
         // Duvara çarpma
         if (x > this.x && x < this.x + this.width &&
             y > this.y && y < this.y + this.height) {
@@ -241,5 +241,5 @@ document.addEventListener('keydown', (e) => {
 });
 
 // Oyunu başlat
-update HUD();
+updateHUD();
 gameLoop();
