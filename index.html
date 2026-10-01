@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockpost Silah Oyunu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="hud">
+            <div class="hud-item">
+                <span>Silah:</span>
+                <span id="weapon-name">Tüfek</span>
+            </div>
+            <div class="hud-item">
+                <span>Mermi:</span>
+                <span id="ammo-count">30/30</span>
+            </div>
+            <div class="hud-item">
+                <span>Puan:</span>
+                <span id="score">0</span>
+            </div>
+            <div class="hud-item">
+                <span>Talimat:</span>
+                <span id="info">1-5 tuşu = Silah Seç | Sol Tıkla = Ateş Et | R = Yeniden Başla</span>
+            </div>
+        </div>
+        <canvas id="gameCanvas"></canvas>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
